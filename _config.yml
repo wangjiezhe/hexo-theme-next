@@ -481,7 +481,7 @@ disqus:
   enable: true
   shortname: wangjiezhe
   count: true
-  lazyload: false
+  lazyload: true
 
 # changyan
 changyan:
