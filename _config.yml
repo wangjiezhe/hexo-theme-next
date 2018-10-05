@@ -20,16 +20,16 @@ cache:
 # `styles: source/_data/styles.styl`
 #custom_file_path:
   # Default paths: layout/_custom/*
-  #head: source/_data/head.swig
-  #header: source/_data/header.swig
-  #sidebar: source/_data/sidebar.swig
+  # head: source/_data/head.swig
+  # header: source/_data/header.swig
+  # sidebar: source/_data/sidebar.swig
 
   # Default path: source/css/_variables/custom.styl
-  #variables: source/_data/variables.styl
+  # variables: source/_data/variables.styl
   # Default path: source/css/_mixins/custom.styl
-  #mixins: source/_data/mixins.styl
+  # mixins: source/_data/mixins.styl
   # Default path: source/css/_custom/custom.styl
-  #styles: source/_data/styles.styl
+  # styles: source/_data/styles.styl
 
 
 # ---------------------------------------------------------------
@@ -49,8 +49,8 @@ favicon:
   medium: /images/favicon-32x32-next.png
   apple_touch_icon: /images/apple-touch-icon-next.png
   safari_pinned_tab: /images/logo.svg
-  #android_manifest: /images/manifest.json
-  #ms_browserconfig: /images/browserconfig.xml
+  # android_manifest: /images/manifest.json
+  # ms_browserconfig: /images/browserconfig.xml
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link, and install hexo-generator-feed: `npm install hexo-generator-feed --save`.
@@ -88,7 +88,7 @@ footer:
     version: true
   # -------------------------------------------------------------
   # Any custom text can be defined here.
-  #custom_text: Hosted by <a target="_blank" rel="external nofollow" href="https://pages.coding.me"><b>Coding Pages</b></a>
+  custom_text: Hosted by <a target="_blank" rel="external nofollow" href="https://pages.github.com"><b>Github Pages</b></a>
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -156,9 +156,10 @@ site_state: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/wangjiezhe || github
-  # E-Mail: mailto:wangjiezhe@gmail.com || envelope
   # Google: https://plus.google.com/yourname || google
   Twitter: https://twitter.com/wangjiezhe || twitter
+  E-Mail: mailto:wangjiezhe@gmail.com || envelope
+  Telegram: https://t.me/wangjiezhe || telegram
   # FB Page: https://www.facebook.com/yourname || facebook
   # VK Group: https://vk.com/yourname || vk
   # StackOverflow: https://stackoverflow.com/yourname || stack-overflow
@@ -183,11 +184,12 @@ social_icons:
 
 # Blog rolls
 links_icon: link
-links_title: Links
-links_layout: block
-#links_layout: inline
-#links:
-  #Title: http://example.com/
+links_title: 友情链接
+# links_layout: block
+links_layout: inline
+# links:
+  # LinuxCN: https://linux.cn
+  # LinuxTOY: https://linuxtoy.org
 
 # Sidebar Avatar
 avatar:
@@ -394,21 +396,21 @@ font:
   # Global font settings used for all elements in <body>.
   global:
     external: true
-    family: Lato
-    size: 17px
+    family: Georgia # Lato
+    size: 16
 
   # Font settings for Headlines (H1, H2, H3, H4, H5, H6).
   # Fallback to `global` font settings.
   headings:
     external: true
-    family:
+    family: Vollkorn
     size:
 
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
     external: true
-    family:
+    family: Vollkorn # Source Sans Pro
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
@@ -420,8 +422,8 @@ font:
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
-    size:
+    family: Source Code Pro
+    size: 16
 
 
 # ---------------------------------------------------------------
@@ -468,19 +470,19 @@ han: false
 # Pangu Support
 # Dependencies: https://github.com/theme-next/theme-next-pangu
 # For more information: https://github.com/vinta/pangu.js
-pangu: false
+pangu: true
 
 # Swiftype Search API Key
-#swiftype_key:
+# swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+# baidu_analytics:
 
 # Disqus
 disqus:
   enable: true
   shortname: wangjiezhe
-  count: true
+  count: false
   lazyload: true
 
 # changyan
@@ -529,11 +531,11 @@ gitment:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
+# baidushare:
 ##  type: button
 
 # addthis Share, see: https://www.addthis.com/
-#add_this_id:
+# add_this_id:
 
 # NeedMoreShare2
 # Dependencies: https://github.com/theme-next/theme-next-needmoreshare2
@@ -565,25 +567,25 @@ needmoreshare2:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+# google_site_verification:
 
 # Google Analytics
-#google_analytics:
+# google_analytics:
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
-#bing_site_verification:
+# bing_site_verification:
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
-#yandex_site_verification:
+# yandex_site_verification:
 
 # Baidu Webmaster tools verification setting
 # See: https://ziyuan.baidu.com/site/
-#baidu_site_verification:
+# baidu_site_verification:
 
 # CNZZ count
-#cnzz_siteid:
+# cnzz_siteid:
 
 # Application Insights
 # See https://azure.microsoft.com/en-us/services/application-insights/
