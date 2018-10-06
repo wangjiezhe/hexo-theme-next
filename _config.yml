@@ -402,21 +402,21 @@ font:
   # Global font settings used for all elements in <body>.
   global:
     external: true
-    family: Georgia # Lato
+    family: # Vollkorn # Lato
     size: 16
 
   # Font settings for Headlines (H1, H2, H3, H4, H5, H6).
   # Fallback to `global` font settings.
   headings:
     external: true
-    family: Vollkorn
+    family:
     size:
 
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
     external: true
-    family: Vollkorn # Source Sans Pro
+    family:
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
@@ -428,7 +428,7 @@ font:
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family: Source Code Pro
+    family: # Source Code Pro
     size: 16
 
 
@@ -471,7 +471,7 @@ math:
 
 # Han Support
 # Dependencies: https://github.com/theme-next/theme-next-han
-han: false
+han: true
 
 # Pangu Support
 # Dependencies: https://github.com/theme-next/theme-next-pangu
