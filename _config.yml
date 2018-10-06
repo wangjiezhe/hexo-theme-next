@@ -86,9 +86,15 @@ footer:
     enable: true
     # Version info of NexT after scheme info (vX.X.X).
     version: true
+
+  hosted:
+    # Host link, such as GitHub or GitLab Pages  (Hosted by XXX)
+    enable: true
+    host: GitHub Pages
+    url: https://pages.github.com
   # -------------------------------------------------------------
   # Any custom text can be defined here.
-  custom_text: Hosted by <a target="_blank" rel="external nofollow" href="https://pages.github.com"><b>Github Pages</b></a>
+  # custom_text: Hosted by <a target="_blank" rel="external nofollow" href="https://pages.github.com">Github Pages</a>
 
 # ---------------------------------------------------------------
 # SEO Settings

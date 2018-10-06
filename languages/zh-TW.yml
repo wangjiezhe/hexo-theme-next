@@ -45,6 +45,7 @@ page:
   tags: 標籤
 footer:
   powered: "由 %s 強力驅動"
+  hosted: "部署在 %s"
   theme: 主題
   total_views: 總瀏覽次數
   total_visitors: 訪客總數
