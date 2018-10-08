@@ -806,7 +806,7 @@ fancybox: false
 
 # Added switch option for separated repo in 6.0.0.
 # Dependencies: https://github.com/theme-next/theme-next-fastclick
-fastclick: false
+fastclick: true
 
 # Added switch option for separated repo in 6.0.0.
 # Dependencies: https://github.com/theme-next/theme-next-jquery-lazyload
@@ -830,8 +830,7 @@ pace: false
 #pace-theme-mac-osx
 #pace-theme-minimal
 # For example
-# pace_theme: pace-theme-center-simple
-pace_theme: pace-theme-minimal
+pace_theme: pace-theme-bounce
 
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest

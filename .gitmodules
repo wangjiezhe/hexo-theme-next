@@ -14,3 +14,6 @@
 [submodule "source/lib/needsharebutton"]
 	path = source/lib/needsharebutton
 	url = https://github.com/theme-next/theme-next-needmoreshare2
+[submodule "source/lib/fastclick"]
+	path = source/lib/fastclick
+	url = https://github.com/theme-next/theme-next-fastclick
