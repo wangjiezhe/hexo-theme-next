@@ -742,6 +742,11 @@ bookmark:
 exturl: false
 
 # Note tag (bs-callout).
+# Enabled note: default, primary, success, info, warning, danger
+# Usage:
+# {% note default %}
+#   default note
+# {% endnote %}
 note:
   # Note tag style values:
   #  - simple    bs-callout old alert style. Default.
@@ -756,9 +761,20 @@ note:
   light_bg_offset: 0
 
 # Label tag.
+# Usage:
+# We want the text on the right {.text-right}
 label: true
 
 # Tabs tag.
+# Usage:
+# {% tabs tab,1 %}
+#<!-- tab -->
+#   tab 1
+# <!-- endtab -->
+# <!-- tab B -->
+#   tab B
+# <!-- endtab -->
+# {% endtabs %}
 tabs:
   enable: true
   transition:
