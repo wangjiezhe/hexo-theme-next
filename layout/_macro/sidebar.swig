@@ -87,15 +87,6 @@
             </nav>
           {% endif %}
 
-          {% if theme.rss %}
-            <div class="feed-link motion-element">
-              <a href="{{ url_for(theme.rss) }}" rel="alternate">
-                <i class="fa fa-rss"></i>
-                RSS
-              </a>
-            </div>
-          {% endif %}
-
           {% if theme.social %}
             <div class="links-of-author motion-element">
               {% for name, link in theme.social %}
@@ -128,6 +119,15 @@
                 <img src="{{ url_for(theme.images) }}/cc-{{ theme.creative_commons }}.svg" alt="Creative Commons" />
               </a>
             </div>
+          {% endif %}
+
+          {% if theme.rss %}
+          <div class="feed-link motion-element">
+            <a href="{{ url_for(theme.rss) }}" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
           {% endif %}
 
           {# Blogroll #}
