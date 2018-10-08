@@ -97,10 +97,10 @@
                 var titleInLowerCase = title.toLowerCase();
                 var content = data.content.trim().replace(/<[^>]+>/g,"");
                 {% if theme.local_search.unescape %}
-                content = unescapeHtml(content);
+                  content = unescapeHtml(content);
                 {% endif %}
                 var contentInLowerCase = content.toLowerCase();
-                var articleUrl = decodeURIComponent(data.url);
+                var articleUrl = decodeURIComponent(data.url).substring(1);
                 var indexOfTitle = [];
                 var indexOfContent = [];
                 // only match articles with not empty titles
