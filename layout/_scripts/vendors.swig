@@ -51,6 +51,8 @@
   {% set js_vendors.reading_progress  = 'reading_progress/reading_progress.js' %}
 {% endif %}
 
+{% set js_vendors.dynamic_background = 'dynamic-background/dynamic-background.js' %}
+
 {% for name, internal in js_vendors %}
   {% set internal_script = url_for(theme.vendors._internal) + '/' + internal %}
   {% if name == 'canvas_ribbon' %}

@@ -88,6 +88,9 @@
     {% endif %}
   </div>
 
+  <div class="bg_content">
+    <canvas id="canvas"></canvas>
+  </div>
   {% include '_scripts/vendors.swig' %}
   {% include '_scripts/commons.swig' %}
 
