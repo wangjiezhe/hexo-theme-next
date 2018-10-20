@@ -98,7 +98,7 @@
 
   {% include '_scripts/boostrap.swig' %}
 
-  {% include '_scripts/love.swig' %}
+  {% include '_scripts/click-love.swig' %}
   {% include '_scripts/crash-cheat.swig' %}
 
   {% include '_third-party/comments/index.swig' %}
