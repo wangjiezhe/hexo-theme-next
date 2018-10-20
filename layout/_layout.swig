@@ -80,7 +80,7 @@
         </span>
       </div>
     {% endif %}
-	
+
     {% if theme.baidushare and theme.baidushare.type === "slide" %}
       <div>
         {% include '_partials/share/baidushare.swig' %}
@@ -97,6 +97,8 @@
   {% block script_extra %}{% endblock %}
 
   {% include '_scripts/boostrap.swig' %}
+
+  {% include '_scripts/love.swig' %}
 
   {% include '_third-party/comments/index.swig' %}
   {% include '_third-party/search/index.swig' %}
