@@ -363,7 +363,7 @@
       </div>
     {% endif %}
 
-    {% if theme.post_copyright.enable and not page.nocopyright and not is_index %}
+    {% if theme.post_copyright.enable and not post.nocopyright and not is_index %}
       <div>
         {% include 'post-copyright.swig' with { post: post } %}
       </div>
