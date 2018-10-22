@@ -106,17 +106,24 @@ code {
 
 @font-face {
   font-family: "GuDianMingChaoTi";
-  src: url('/fonts/WenYue-GuDianMingChaoTi-NC-W5.otf');
+  src: url("../fonts/GuDianMingChaoTi.eot"); /* IE9 */
+  src: url("../fonts/GuDianMingChaoTi.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/GuDianMingChaoTi.woff") format("woff"), /* chrome, firefox */
+    url("../fonts/GuDianMingChaoTi.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("../fonts/GuDianMingChaoTi.svg#WenYue GuDianMingChaoTi (Non-Commercial Use) W5") format("svg"); /* iOS 4.1- */
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-  font-family: "GuYaSong";
-  src: url('/fonts/WenYue-XHGuYaSong-NC.otf');
-}
-
-@font-face {
-  font-family: "XinWeiTi";
-  src: url('/fonts/WenYue-ZHJXinWeiTi-NC.otf');
+  font-family: "ZHJXinWeiTi";
+  src: url("ZHJXinWeiTi.eot"); /* IE9 */
+  src: url("../fonts/ZHJXinWeiTi.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/ZHJXinWeiTi.woff") format("woff"), /* chrome, firefox */
+    url("../fonts/ZHJXinWeiTi.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("../fonts/ZHJXinWeiTi.svg#WenYue ZHJXinWeiTi (Non-Commercial Use)") format("svg"); /* iOS 4.1- */
+  font-style: normal;
+  font-weight: normal;
 }
 
 .site-title {
@@ -125,6 +132,6 @@ code {
 }
 
 .site-author-name {
-  font-family: "XinWeiTi";
+  font-family: "ZHJXinWeiTi";
   font-weight: normal;
 }
