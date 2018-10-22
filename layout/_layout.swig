@@ -102,7 +102,10 @@
   {% include '_scripts/boostrap.swig' %}
 
   {% include '_scripts/click-love.swig' %}
-  {% include '_scripts/crash-cheat.swig' %}
+
+  {% if theme.crash_cheat %}
+    {% include '_scripts/crash-cheat.swig' %}
+  {% endif %}
 
   {% include '_third-party/comments/index.swig' %}
   {% include '_third-party/search/index.swig' %}

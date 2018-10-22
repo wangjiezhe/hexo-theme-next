@@ -869,6 +869,10 @@ canvas_ribbon:
   alpha: 0.6
   zIndex: -1
 
+
+# Crash cheat
+crash_cheat: false
+
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
 # For example
