@@ -281,7 +281,7 @@ auto_excerpt:
 
 # Post meta display settings
 post_meta:
-  item_text: true
+  item_text: false
   created_at: true
   updated_at:
     enabled: false
@@ -295,8 +295,8 @@ post_meta:
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
 symbols_count_time:
   separated_meta: false
-  item_text_post: true
-  item_text_total: true
+  item_text_post: false
+  item_text_total: false
   awl: 2
   wpm: 275
 
