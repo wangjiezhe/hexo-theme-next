@@ -575,7 +575,7 @@ needmoreshare2:
       iconStyle: box
       boxForm: horizontal
       position: topCenter
-      networks: Wechat,QQZone,Weibo,Douban,Evernote,Twitter,Facebook,GooglePlus,Reddit,Pinterest
+      networks: Wechat,Weibo,Douban,Evernote,Twitter,Reddit,Mailto
   float:
     enable: false
     options:
