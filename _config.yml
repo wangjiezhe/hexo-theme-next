@@ -554,7 +554,7 @@ gitment:
 ##  type: button
 
 # addthis Share, see: https://www.addthis.com/
-add_this_id: ra-5bbaf8fb7c9957e3
+# add_this_id: ra-5bbaf8fb7c9957e3
 
 # NeedMoreShare2
 # Dependencies: https://github.com/theme-next/theme-next-needmoreshare2
@@ -568,7 +568,7 @@ add_this_id: ra-5bbaf8fb7c9957e3
 #           Technorati,Posterous,Tumblr,GoogleBookmarks,Newsvine,
 #           Evernote,Friendfeed,Vkontakte,Odnoklassniki,Mailru
 needmoreshare2:
-  enable: false
+  enable: true
   postbottom:
     enable: true
     options:
@@ -580,7 +580,7 @@ needmoreshare2:
     enable: false
     options:
       iconStyle: box
-      boxForm: horizontal
+      boxForm: vertical
       position: middleRight
       networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
 
