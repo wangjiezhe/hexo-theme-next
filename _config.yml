@@ -509,7 +509,7 @@ disqusapi:
   enable: true
   forum: wangjiezhe
   site: wangjiezhe.com
-  api: https://imspankee.byethost11.com/disqus/api
+  api: http://imspankee.byethost11.com/disqus/api
   mode: 2
   badges: Owner
   timeout: 3000

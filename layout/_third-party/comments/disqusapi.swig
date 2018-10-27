@@ -1,6 +1,6 @@
 {% if theme.disqusapi.enable %}
-    <link rel="stylesheet" href="/disqus/dist/iDisqus.min.css" />
-    <script src="/disqus/dist/iDisqus.min.js"></script>
+    <link rel="stylesheet" href="/disqus/iDisqus.min.css" />
+    <script src="/disqus/iDisqus.min.js"></script>
     <script>
         // var emojiList = [{
         //     code:'smile',
@@ -59,6 +59,7 @@
             badge: '{{ theme.disqusapi.badge }}',
             timeout: {{ theme.disqusapi.timeout }},
             init: true,
+            identifier: '{{ page.path }}',
             emojiPreview: true,
             // emoji_list: emojiList
         });

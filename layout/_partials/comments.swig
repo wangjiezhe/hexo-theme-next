@@ -15,7 +15,7 @@
       <div id="vk_comments"></div>
     </div>
 
-  {% elseif theme.disqus.enable %}
+  {% elseif theme.disqus.enable or theme.disqusapi.enable %}
     <div class="comments" id="comments">
       <div id="disqus_thread">
         <noscript>
