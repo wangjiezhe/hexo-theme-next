@@ -499,7 +499,7 @@ pangu: true
 
 # Disqus
 disqus:
-  enable: false
+  enable: true
   shortname: wangjiezhe
   count: false
   lazyload: false
