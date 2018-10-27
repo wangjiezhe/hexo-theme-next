@@ -1,5 +1,5 @@
 {% include 'disqus.swig' %}
-{% include 'disuqsapi.swig' %}
+{% include 'disqusapi.swig' %}
 {% include 'livere.swig' %}
 {% include 'changyan.swig' %}
 {% include 'gitment.swig' %}
