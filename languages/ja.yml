@@ -86,6 +86,7 @@ reward:
   alipay: Alipay
   bitcoin: ビットコイン
 gitmentbutton: Gitment からのコメントを表示
+disqusbutton: Disqus からのコメントを表示
 accessibility:
   nav_toggle: ナビゲーションバーの切り替え
   prev_page: 前のページ

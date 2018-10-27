@@ -15,7 +15,22 @@
       <div id="vk_comments"></div>
     </div>
 
-  {% elseif theme.disqus.enable or theme.disqusapi.enable %}
+  {% elseif theme.disqus.enable %}
+    <div class="comments" id="comments">
+      {% if theme.disqus.button %}
+        <div class="disqus-button" id="disqus-display-button" onclick="loadComments()">
+          {{ __('disqusbutton') }}
+        </div>
+      {% endif %}
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
+
+    {% elseif theme.disqusapi.enable %}
     <div class="comments" id="comments">
       <div id="disqus_thread">
         <noscript>

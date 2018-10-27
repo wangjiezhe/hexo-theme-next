@@ -40,7 +40,7 @@
             });
           }
         });
-      {% else %}
+      {% elseif not theme.disqus.button %}
         loadComments();
       {% endif %}
     </script>

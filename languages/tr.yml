@@ -86,6 +86,7 @@ reward:
   alipay: Alipay
   bitcoin: Bitcoin
 gitmentbutton: Gitment'ın yorumlarını göster
+disqusbutton: Disqus'ın yorumlarını göster
 accessibility:
   nav_toggle: Gezinti çubuğunu değiştir
   prev_page: Önceki sayfa

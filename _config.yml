@@ -502,7 +502,8 @@ disqus:
   enable: true
   shortname: wangjiezhe
   count: false
-  lazyload: true
+  lazyload: false
+  button: true
 
 # Disqus API
 disqusapi:

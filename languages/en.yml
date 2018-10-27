@@ -102,6 +102,8 @@ reward:
 
 gitmentbutton: Show comments from Gitment
 
+disqusbutton: Show comments from Disqus
+
 accessibility:
   nav_toggle: Toggle navigation bar
   prev_page: Previous page
