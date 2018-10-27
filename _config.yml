@@ -499,7 +499,7 @@ pangu: true
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: wangjiezhe
   count: false
   lazyload: false
@@ -514,6 +514,16 @@ disqusapi:
   mode: 2
   badges: Owner
   timeout: 3000
+
+# Utterances
+# repo: owner/repo
+# issue-term: pathname, url, title, og:title [ISSUE NUMBER] or [SPECIFIC TERM]
+# theme: github-light or github-dark
+utterances:
+  enable: true
+  repo: wangjiezhe/wangjiezhe.github.io
+  issue_term: "og:title"
+  theme: github-light
 
 # changyan
 changyan:
