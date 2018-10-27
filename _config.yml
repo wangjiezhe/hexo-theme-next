@@ -499,14 +499,14 @@ pangu: true
 
 # Disqus
 disqus:
-  enable: false
+  enable: true
   shortname: wangjiezhe
   count: false
   lazyload: true
 
 # Disqus API
 disqusapi:
-  enable: true
+  enable: false
   forum: wangjiezhe
   site: https://wangjiezhe.com
   api: http://imspankee.byethost11.com/disqus/api
