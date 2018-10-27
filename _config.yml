@@ -508,7 +508,7 @@ disqus:
 disqusapi:
   enable: true
   forum: wangjiezhe
-  site: wangjiezhe.com
+  site: https://wangjiezhe.com
   api: http://imspankee.byethost11.com/disqus/api
   mode: 2
   badges: Owner
