@@ -522,7 +522,7 @@ disqusapi:
 utterances:
   enable: true
   repo: wangjiezhe/wangjiezhe.github.io
-  issue_term: "og:title"
+  issue_term: og:title
   theme: github-light
 
 # changyan
