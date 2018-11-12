@@ -4,7 +4,6 @@
 [submodule "source/lib/Han"]
 	path = source/lib/Han
 	url = https://github.com/wangjiezhe/theme-next-han.git
-	branch = disable-well-knit
 [submodule "source/lib/pangu"]
 	path = source/lib/pangu
 	url = https://github.com/theme-next/theme-next-pangu.git
