@@ -25,9 +25,9 @@
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
 
-  {% set container_class = "container " %}
+  {% set container_class = 'container' %}
   {% if theme.sidebar.position %}
-    {% set container_class = container_class + 'sidebar-position-' + theme.sidebar.position %}
+    {% set container_class = container_class + ' sidebar-position-' + theme.sidebar.position %}
   {% endif %}
 
   <div class="{{ container_class }} {% block page_class %}{% endblock %}">
@@ -37,7 +37,7 @@
       <div class="header-inner">{% include '_partials/header/index.swig' %}</div>
     </header>
 
-    {{ partial('_third-party/github-banner.swig', {}, {cache: theme.cache.enable}) }}
+    {{ partial('_partials/github-banner.swig', {}, {cache: theme.cache.enable}) }}
 
     <main id="main" class="main">
       <div class="main-inner">
@@ -107,13 +107,16 @@
     {% include '_scripts/crash-cheat.swig' %}
   {% endif %}
 
+  {% include '_scripts/next-boot.swig' %}
+  {% include '_third-party/quicklink/index.swig' %}
   {% include '_third-party/comments/index.swig' %}
   {% include '_third-party/search/index.swig' %}
   {% include '_third-party/analytics/lean-analytics.swig' %}
   {% include '_third-party/analytics/firestore.swig' %}
-  {% include '_third-party/seo/baidu-push.swig' %}
-  {% include '_third-party/schedule.swig' %}
   {% include '_third-party/math/index.swig' %}
+  {% include '_third-party/pdf.swig' %}
+  {% include '_third-party/baidu-push.swig' %}
+  {% include '_third-party/schedule.swig' %}
   {% include '_third-party/needsharebutton.swig' %}
   {% include '_third-party/rating.swig' %}
   {% include '_third-party/pangu.swig' %}
@@ -121,6 +124,5 @@
   {% include '_third-party/exturl.swig' %}
   {% include '_third-party/bookmark.swig' %}
   {% include '_third-party/copy-code.swig' %}
-  {% include '_third-party/pdf.swig' %}
 </body>
 </html>
