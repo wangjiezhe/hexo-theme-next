@@ -16,9 +16,6 @@ source/lib/font-awesome/scss/
 
 !source/lib/jquery/
 
-source/lib/ua-parser-js/*
-!source/lib/ua-parser-js/dist/
-
 !source/lib/velocity/
 
 !source/lib/dynamic-background/
