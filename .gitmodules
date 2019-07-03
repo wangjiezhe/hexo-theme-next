@@ -1,9 +1,6 @@
 [submodule "source/lib/canvas-nest"]
 	path = source/lib/canvas-nest
 	url = https://github.com/theme-next/theme-next-canvas-nest.git
-[submodule "source/lib/Han"]
-	path = source/lib/Han
-	url = https://github.com/wangjiezhe/theme-next-han.git
 [submodule "source/lib/pangu"]
 	path = source/lib/pangu
 	url = https://github.com/theme-next/theme-next-pangu.git
