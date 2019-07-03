@@ -343,7 +343,7 @@ post_meta:
   item_text: false
   created_at: true
   updated_at:
-    enable: true
+    enable: false
     another_day: true
   categories: true
 
@@ -354,7 +354,7 @@ symbols_count_time:
   item_text_post: false
   item_text_total: false
   awl: 2
-  wpm: 275
+  wpm: 300
 
 codeblock:
   # Manual define the border radius in codeblock, leave it blank for the default value: 1
@@ -630,7 +630,7 @@ disqus:
   shortname: wangjiezhe
   count: false
   lazyload: false
-  button: true
+  button: false
 
 # Disqus API
 disqusapi:
@@ -692,22 +692,6 @@ valine:
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
 # livere_uid: your uid
-
-# Gitment
-# Introduction: https://github.com/imsun/gitment
-gitment:
-  enable: false
-  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
-  count: true # Show comments count in post meta area
-  lazy: false # Comments lazy loading with a button
-  cleanly: false # Hide 'Powered by ...' on footer, and more
-  language: # Force language, or auto switch by themeis:issue is:open
-  github_user: # MUST HAVE, Your Github Username
-  github_repo: # MUST HAVE, The name of the repo you use to store Gitment comments
-  client_id: # MUST HAVE, Github client id for the Gitment
-  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
-  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
-  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
 # Gitalk
 # Demo: https://gitalk.github.io
@@ -847,7 +831,7 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn to get AppID and AppKey.
 leancloud_visitors:
-  enable: enable
+  enable: false
   app_id: zF9bATpOVpJ3Ne23Ind4DtpA-gzGzoHsz
   app_key: U9qQHaflwz0965brRUeN1VOB
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
@@ -869,7 +853,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true
