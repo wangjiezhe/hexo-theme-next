@@ -99,8 +99,6 @@
 
   {% block script_extra %}{% endblock %}
 
-  {% include '_scripts/boostrap.swig' %}
-
   {% include '_scripts/click-love.swig' %}
 
   {% if theme.crash_cheat %}

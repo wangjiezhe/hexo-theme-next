@@ -96,15 +96,6 @@
             </nav>
           {% endif %}
 
-          {% if theme.rss %}
-            <div class="feed-link motion-element">
-              <a href="{{ url_for(theme.rss) }}" rel="alternate">
-                <i class="fa fa-rss"></i>
-                RSS
-              </a>
-            </div>
-          {% endif %}
-
           {% if theme.chat.enable and theme.chat.service !== '' %}
             <div class="chat motion-element">
               {% if theme.chat.service == 'chatra' and theme.chatra.enable %}
