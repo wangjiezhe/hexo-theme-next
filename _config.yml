@@ -497,7 +497,7 @@ font:
   global:
     external: true
     family: # Vollkorn # Lato
-    size: 16
+    size: 1
 
   # Font settings for site title (.site-title).
   title:
@@ -520,7 +520,7 @@ font:
   codes:
     external: true
     family: # Source Code Pro
-    size: 16
+    size: 1
 
 
 # ---------------------------------------------------------------
