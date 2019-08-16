@@ -85,8 +85,6 @@ reward:
   wechatpay: WeChat Pay
   alipay: Alipay
   bitcoin: Bitcoin
-gitmentbutton: Hiển thị bình luận từ Gitment
-disqusbutton: Hiển thị bình luận từ Disqus
 accessibility:
   nav_toggle: Toggle navigation bar
   prev_page: Trang trước

@@ -85,8 +85,6 @@ reward:
   wechatpay: WeChat Bezahlung
   alipay: Alipay
   bitcoin: Bitcoin
-gitmentbutton: Zeige Kommentare von Gitment
-disqusbutton: Zeige Kommentare von Disqus
 accessibility:
   nav_toggle: Navigationsleiste an/ausschalten
   prev_page: Vorherige Seite
