@@ -17,7 +17,7 @@ cache:
   enable: true
 
 # Remove unnecessary files after hexo generate.
-minify: false
+minify: true
 
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
@@ -63,7 +63,7 @@ footer:
     # If you want to animate the icon, set it to true.
     animated: true
     # Change the color of icon, using Hex Code.
-    color: "#663A7C"
+    color: '#999'
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
   copyright:
@@ -79,6 +79,12 @@ footer:
     enable: true
     # Version info of NexT after scheme info (vX.X.X).
     version: true
+
+  hosted:
+    # Host link, such as GitHub or GitLab Pages  (Hosted by XXX)
+    enable: true
+    host: GitHub Pages
+    url: https://pages.github.com
 
   # Beian ICP and gongan information for Chinese users. See: http://www.beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
@@ -391,8 +397,8 @@ tagcloud:
   # All values below are same as default, change them by yourself
   min: 12 # Minimun font size in px
   max: 30 # Maxium font size in px
-  start: "#ccc" # Start color (hex, rgba, hsla or color keywords)
-  end: "#111" # End color (hex, rgba, hsla or color keywords)
+  start: "#70f" # Start color (hex, rgba, hsla or color keywords)
+  end: "#f07" # End color (hex, rgba, hsla or color keywords)
   amount: 200 # Amount of tags, change it if you have more than 200 tags
 
 # Google Calendar
@@ -468,7 +474,7 @@ reading_progress:
 bookmark:
   enable: true
   # Customize the color of the bookmark.
-  color: "#222"
+  color: "#37c6c0"
   # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
   # If manual, only save it by clicking the bookmark-icon.
   save: manual
@@ -476,7 +482,7 @@ bookmark:
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
   enable: false
-  permalink: https://github.com/yourname
+  permalink: https://github.com/wangjiezhe
   title: Follow me on GitHub
 
 
