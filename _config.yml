@@ -1046,6 +1046,9 @@ vendors:
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
   fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
 
+  # Reading progress bar
+  reading_progress: //cdn.jsdelivr.net/gh/theme-next/theme-next-reading-progress@1/reading_progress.min.js
+
   # MathJax
   # Example:
   # mathjax: //cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
@@ -1156,7 +1159,7 @@ vendors:
   # pace_css: //cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.css
   # pace_css: //cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/blue/pace-theme-minimal.min.css
   pace: //cdn.jsdelivr.net/npm/pace-js@1/pace.min.js
-  pace_css: //cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-minimal.css
+  pace_css: //cdn.jsdelivr.net/npm/pace-js@1/themes/purple/pace-theme-bounce.css
 
   # Internal version: 1.0.0
   # Example:
