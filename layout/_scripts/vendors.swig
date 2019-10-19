@@ -41,10 +41,6 @@
   <script size="{{ theme.canvas_ribbon.size }}" alpha="{{ theme.canvas_ribbon.alpha }}" zIndex="{{ theme.canvas_ribbon.zIndex }}" src="{{ canvas_ribbon_uri }}"></script>
 {%- endif %}
 
-{%- if theme.dynamic_background %}
-{%- set js_vendors.dynamic_background = 'dynamic-background/dynamic-background.js' %}
-{%- endif %}
-
 {%- for name, internal in js_vendors %}
   {%- set internal_script = next_vendors(internal) %}
   <script src="{{ theme.vendors[name] or internal_script }}"></script>
