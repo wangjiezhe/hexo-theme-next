@@ -844,11 +844,6 @@ note:
   # Offset also applied to label tag variables. This option can work with disabled note tag.
   light_bg_offset: 0
 
-# Label tag.
-# Usage:
-# We want the text on the right {.text-right}
-label: true
-
 # Tabs tag.
 tabs:
   transition:
