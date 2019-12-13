@@ -580,7 +580,7 @@ quicklink:
 # Multiple Comment System Support
 comments:
   # Available values: tabs | buttons
-  style: tabs
+  style: buttons
   # Choose a comment system to be displayed by default.
   # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
   active:
@@ -593,6 +593,12 @@ comments:
     #  order: -1
     #gitalk:
     #  order: -2
+    disqusjs:
+      text: Disqus
+      order: 1
+    discussbot:
+      text: Comments.App
+      order: 2
 
 # Disqus
 disqus:
@@ -661,6 +667,19 @@ gitalk:
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
   language:
+
+# DiscussBot
+discussbot:
+  enable: true
+  siteid: DTO-cxcp
+  # number: comments showed per page
+  number: 5
+  # color: use HEX number for accent color
+  color: 3DA0F0
+  # dislike: 0 or 1, show only likes, or show both like and dislikes
+  dislikes: 1
+  # outlined: 0 or 1, use filled icon or outlined icon
+  outlined: 1
 
 
 # ---------------------------------------------------------------
