@@ -633,7 +633,7 @@ disqusjs:
   # Otherwise you need a reverse proxy for Disqus API.
   # For example:
   # api: https://disqus.skk.moe/disqus/
-  api: https://disqus.skk.moe/disqus/
+  api: https://disqusjs-proxy.wangjiezhe.now.sh/
   apikey: ENTX2OPfWXIYJpFIZ1WVpYt4F0Ri0PLUELMOCbM8HHIX9C9BqEbkBZWmK7lqKj7F # Register new application from https://disqus.com/api/applications/
   shortname: wangjiezhe # See: https://disqus.com/admin/settings/general/
 
