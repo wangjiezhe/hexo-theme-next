@@ -602,26 +602,6 @@ disqus:
   lazyload: false
   #post_meta_order: 0
 
-# Disqus API
-disqusapi:
-  enable: false
-  forum: wangjiezhe
-  site: https://wangjiezhe.com
-  api: http://imspankee.byethost11.com/disqus/api
-  mode: 2
-  badges: Owner
-  timeout: 3000
-
-# Utterances
-# repo: owner/repo
-# issue-term: pathname, url, title, og:title [ISSUE NUMBER] or [SPECIFIC TERM]
-# theme: github-light or github-dark
-utterances:
-  enable: false
-  repo: wangjiezhe/wangjiezhe.github.io
-  issue_term: og:title
-  theme: github-light
-
 # DisqusJS
 # Alternative Disqus - Render comment component using Disqus API.
 # Demo: https://suka.js.org/DisqusJS/
