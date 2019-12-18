@@ -593,12 +593,12 @@ comments:
     #  order: -1
     #gitalk:
     #  order: -2
-    disqusjs:
-      text: Disqus
-      order: 1
-    discussbot:
-      text: Comments.App
-      order: 2
+    # disqusjs:
+    #   text: Disqus
+    #   order: 1
+    # discussbot:
+    #   text: Comments.App
+    #   order: 2
 
 # Disqus
 disqus:
@@ -670,7 +670,7 @@ gitalk:
 
 # DiscussBot
 discussbot:
-  enable: true
+  enable: false
   siteid: DTO-cxcp
   # number: comments showed per page
   number: 5
