@@ -605,14 +605,8 @@ comments:
 # Disqus
 disqus:
   enable: false
-<<<<<<< HEAD
-  shortname: wangjiezhe
-  count: false
-  lazyload: false
-=======
   shortname:
   count: true
->>>>>>> master
   #post_meta_order: 0
 
 # DisqusJS
