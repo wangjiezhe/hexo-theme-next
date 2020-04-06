@@ -16,9 +16,3 @@
   {% include 'pjax.swig' %}
 {%- endif %}
 {% include 'three.swig' %}
-
-{%- if theme.crash_cheat %}
-  {{- next_js('crash_cheat.js') }}
-{%- endif %}
-
-{{- next_js('click-love.js')}}
