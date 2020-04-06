@@ -70,12 +70,6 @@ footer:
   # Powered by Hexo & NexT
   powered: true
 
-  hosted:
-    # Host link, such as GitHub or GitLab Pages  (Hosted by XXX)
-    enable: true
-    host: GitHub Pages
-    url: https://pages.github.com
-
   # Beian ICP and gongan information for Chinese users. See: http://www.beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
     enable: false
@@ -1017,14 +1011,14 @@ vendors:
   # three_waves: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three-waves.min.js
   # canvas_lines: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_lines.min.js
   # canvas_sphere: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_sphere.min.js
-  three: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three.min.js
-  three_waves: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three-waves.min.js
-  canvas_lines: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_lines.min.js
-  canvas_sphere: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/canvas_sphere.min.js
+  three:
+  three_waves:
+  canvas_lines:
+  canvas_sphere:
 
   # Internal version: 1.0.0
   # canvas_ribbon: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
-  canvas_ribbon: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
+  canvas_ribbon:
 
 # Assets
 css: css
