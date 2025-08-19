@@ -40,7 +40,6 @@ firebase.initializeApp({
         localStorage.setItem(title, true);
       }
       const count = await getCount(doc, increaseCount);
-      document.querySelector('.firestore-visitors-count').innerText = count;
     } else if (CONFIG.page.isHome) {
       const promises = [...document.querySelectorAll('.post-title')].map(element => {
         const title = element.textContent.trim();
@@ -48,10 +47,6 @@ firebase.initializeApp({
         return getCount(doc);
       });
       const counts = await Promise.all(promises);
-      const metas = document.querySelectorAll('.firestore-visitors-count');
-      counts.forEach((val, idx) => {
-        metas[idx].innerText = val;
-      });
     }
   });
 })();
